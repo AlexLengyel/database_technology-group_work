@@ -5,7 +5,7 @@ Authoritative source: `project_requirements/semester_project_description.pdf`.
 ## Tech stack — non-negotiable
 
 **Database engine: MySQL.** The relational model must be implemented as a
-MySQL database. Write DDL in MySQL dialect (`ENGINE=InnoDB`, `AUTO_INCREMENT`,
+MySQL database. Write DDL in MySQL dialect (`AUTO_INCREMENT`,
 MySQL-flavored types like `VARCHAR`, `DATE`, `ENUM`, etc. — not
 Postgres/SQLite-specific syntax).
 

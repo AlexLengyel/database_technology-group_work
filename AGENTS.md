@@ -17,6 +17,13 @@ statements, comments only where a decision isn't self-evident) and to any
 accompanying scripts or docs — readable and maintainable over clever or
 shortcut-y, since it's group work others will read and extend.
 
+**Scope: keep it a school project, not a production system.** Where the
+ideal solution would be an extra lookup table, we deliberately use an `ENUM`
+or `VARCHAR` instead (marked in the DDL with a "Limitation of the project
+scope" comment), and the system is Switzerland-only. Follow the same approach
+for similar cases instead of adding tables. Details: "Scope decisions" in
+`skills/er-model.md`.
+
 ## What to read, and when
 
 - **Touching the data model, DDL, or queries** → read `skills/er-model.md`.

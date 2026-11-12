@@ -21,6 +21,17 @@ schema.
 
 ![Library ER diagram](docs/library_er_diagram.png)
 
+## Scope & assumptions
+
+To keep the project from becoming too complex, we made these simplifications:
+
+- **Switzerland only:** addresses use 4-digit Swiss postcodes, and phone
+  numbers must be Swiss numbers in the format `+41` followed by 9 digits.
+- **ENUM / VARCHAR instead of lookup tables:** for values like language,
+  epoch, country of origin, copy format and movie resolution, a separate
+  table would be the best solution in a real system. We use an `ENUM`
+  instead, which is marked with a comment in the DDL.
+
 ## Repository structure
 
 ```
