@@ -1,0 +1,2 @@
+-- Test/seed data (INSERT statements) — enough rows across the relevant
+-- tables to exercise and verify the queries in 03_queries.sql.

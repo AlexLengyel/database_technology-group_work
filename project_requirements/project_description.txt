@@ -1,0 +1,12 @@
+Library system
+
+A library needs a new library system. Different
+subject areas exist. Different media exist with different possible lending
+times. Different locations exist. There are different user groups with
+different borrowing rights.
+
+It must be possible to record reservations. It must be
+possible to create the necessary callbacks (reminders) at any time.
+
+Complete the above description with your own
+assumptions or lookup an existing library system.

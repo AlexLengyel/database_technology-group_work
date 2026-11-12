@@ -1,0 +1,4 @@
+-- Analytical SQL queries for the project submission.
+-- Required: at least one query joining >= 2 tables, using an aggregate
+-- function and GROUP BY. Add a short comment above each query explaining
+-- what it analyzes.

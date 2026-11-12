@@ -1,0 +1,3 @@
+-- DDL: CREATE TABLE statements for the library system relational model.
+-- Mirrors docs/library_er_diagram.png — see skills/er-model.md for the
+-- entity/relationship-to-table mapping. Define all primary and foreign keys here.
